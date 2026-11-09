@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f0">
+  <meta name="description" content="今日有图：连接艺术与设计的研究、职业机会和 AI 实践。">
+  <title>今日有图 — 艺术与设计的下一步</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="data/jobs.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="data/leaderboards.js" defer></script>
+  <script src="data/site-meta.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到内容</a>
+  <div class="preview-bar"><span class="preview-dot"></span> 开发预览 <span class="preview-divider">/</span> <span id="release-label">真实来源与示例内容已分别标注</span><span class="preview-right">A SPACE FOR ART, DESIGN & RESEARCH</span></div>
+  <header class="site-header">
+    <div class="masthead wrap">
+      <a class="brand" href="#/home" aria-label="今日有图首页"><img src="assets/mark.svg" width="39" height="39" alt=""><span><strong>今日有图<span class="brand-period">.</span></strong><small>ART · DESIGN · WHAT’S NEXT</small></span></a>
+      <form id="global-search" class="global-search" role="search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search-input" type="search" placeholder="搜索研究、机会与设计灵感" aria-label="全站搜索"><kbd>↵</kbd></form>
+      <a href="#/saved" class="saved-link"><svg width="17" height="20" viewBox="0 0 18 22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 2h12v18l-6-4-6 4z"/></svg><span>我的收藏</span><b id="saved-count">0</b></a>
+    </div>
+    <div class="nav-line"><div class="wrap nav-inner"><nav aria-label="主导航"><a data-route="home" href="#/home">精选首页</a><a data-route="jobs" href="#/jobs">招聘</a><a data-route="phd" href="#/phd">博士申请</a><a data-route="research" href="#/research">研究与投稿</a><a data-route="ai" href="#/ai">设计 AI 评测 <span class="nav-beta">榜单</span></a></nav><span class="nav-caption">保持好奇，继续创造 <span>↗</span></span></div></div>
+  </header>
+  <main id="main" class="wrap" tabindex="-1"></main>
+  <footer class="site-footer"><div class="wrap footer-inner"><div><strong>今日有图.</strong><span>连接值得关注的研究，和你的下一步。</span></div><p>开发版 · 内容以原始来源为准<br>收藏仅保存在当前浏览器</p><a href="#/home">回到首页 ↗</a></div></footer>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><button class="dialog-close" aria-label="关闭详情">×</button><div id="detail-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

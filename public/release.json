@@ -1,0 +1,26 @@
+{
+  "version": "release-b029856765b5abce",
+  "builtAt": "2026-11-09T12:18:28+00:00",
+  "pipeline": true,
+  "counts": {
+    "calls": 1,
+    "jobs": 4,
+    "leaderboards": 3,
+    "phd": 1,
+    "research": 2
+  },
+  "files": {
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "app.js": "a3be88b047d59cd13346eacb4c695fb346f22a54205d59929b452a34b8a9f878",
+    "assets/hero-design.svg": "c7892263ebce07603db9015cd260826e3373ff8c1163783ba3ad309264970772",
+    "assets/mark.svg": "3283c65333fffd5aa2b62afcbb3f0f7dd025a226628888269d62f729572a6d23",
+    "assets/research-forms.svg": "2c78e7d4a07d0f1fa0cfd9ca9a08c968e261a4b305fab4cb2009c6e548c0bc45",
+    "assets/research-ink.svg": "691a85d132500338764f3c50044bafde2ec28427d1e2b98583509db45096c16a",
+    "data.js": "3151e033b8eea86a45c3119f86d196a1f342eb04c2b30101748654397f05519f",
+    "data/jobs.js": "2b9412b60d6abbe494a4259d924e4f82ba7f5878504ec34e504eabfa5817c931",
+    "data/leaderboards.js": "0b8ace5023bf1acd6ee7ab0dbb1be1be0cc71e434a46b389d6185c080558557a",
+    "data/site-meta.js": "0e8e7c167a465be918dfe4c8093b28067ae17f5e1faab7158861d779089a42e2",
+    "index.html": "b5fb3e4dbd0d96fa2041e81f17637bc1756d61fbe53105a0a6770cedbe7e8a86",
+    "styles.css": "8b8a9368f7a929e331010cd900671922cbcb9cdcb378d78d660dbaaf17a88655"
+  }
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" fill="none">
+  <defs>
+    <linearGradient id="paper" x1="185" y1="143" x2="620" y2="448" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFDF1"/><stop offset="1" stop-color="#E6DDA5"/></linearGradient>
+    <linearGradient id="balloon" x1="352" y1="157" x2="483" y2="389" gradientUnits="userSpaceOnUse"><stop stop-color="#B8A3DD"/><stop offset=".6" stop-color="#8661BF"/><stop offset="1" stop-color="#583C85"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <path fill="#F1ECCE" d="M0 0h800v560H0z"/>
+  <g stroke="#59513A" opacity=".14" stroke-width="1"><path d="M0 445h800M0 345h800M0 245h800M0 145h800M100 0v560M200 0v560M300 0v560M400 0v560M500 0v560M600 0v560M700 0v560"/></g>
+  <ellipse cx="425" cy="431" rx="246" ry="34" fill="#5E5433" opacity=".17" filter="url(#shadow)"/>
+  <g stroke="#443D2C" stroke-width="1.7" stroke-linejoin="round">
+    <path d="m120 354 127-204 120 45-18 189-129 60Z" fill="url(#paper)"/>
+    <path d="m247 150 12 198-139 6M259 348l-39 96M259 348l108-153"/>
+    <path d="m259 348 90 36 18-189Z" fill="#C9BD7C"/>
+    <path d="m479 210 172-55 54 191-129 102-109-77Z" fill="#F9F4DE"/>
+    <path d="m651 155-75 293-39-176-58-62"/>
+    <path d="m576 448 129-102-168-74Z" fill="#E2D8AC"/>
+    <path d="m479 210 58 62-70 99Z" fill="#C9BD7C"/>
+  </g>
+  <g stroke="#44354F" stroke-width="1.7">
+    <path d="M301 324c-32-36-20-82 27-104-4-47 35-79 83-61 35-35 85-23 100 24 47 1 74 39 54 81 31 37 18 85-29 103 0 46-40 74-84 54-37 31-85 18-100-24-47-3-72-34-51-73Z" fill="url(#balloon)"/>
+    <path d="m328 220 64 56 19-117M392 276l119-93M392 276l144 91M392 276l60 145M392 276l-91 48" stroke="#59406F"/>
+    <path d="M345 228c-3-24 14-44 36-44M476 188c14 4 24 15 27 29M516 288c15 3 25 12 27 26" stroke="#D7C8EB" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+    <circle cx="392" cy="276" r="6" fill="#ECE3F6"/>
+  </g>
+  <g stroke="#58513A" stroke-width="1.4"><path d="M84 84h52M110 58v52M670 472h50M695 447v50"/><path d="M100 487h94M610 82h94" stroke-dasharray="3 6"/><circle cx="642" cy="82" r="4" fill="#58513A"/></g>
+</svg>

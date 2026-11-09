@@ -1,0 +1,51 @@
+name: Publish Jinriyoutu Pages
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - 'public/**'
+      - '.github/workflows/jinriyoutu-pages.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify the complete public artifact
+        run: |
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path, PurePosixPath
+          root = Path('public')
+          manifest = json.loads((root / 'release.json').read_text())
+          assert manifest.get('pipeline') is True and manifest.get('version')
+          files = manifest['files']
+          assert {'index.html','app.js','data.js','styles.css'}.issubset(files)
+          present = set()
+          for path in root.rglob('*'):
+              assert not path.is_symlink(), f'Symlink: {path}'
+              if path.is_file():
+                  present.add(path.relative_to(root).as_posix())
+          assert present == set(files) | {'release.json'}, 'Unexpected or missing public files'
+          for name, digest in files.items():
+              path = PurePosixPath(name)
+              assert not path.is_absolute() and '..' not in path.parts
+              assert hashlib.sha256((root / name).read_bytes()).hexdigest() == digest, name
+          PY
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

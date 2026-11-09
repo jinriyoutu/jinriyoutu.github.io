@@ -1,0 +1,21 @@
+{
+  "publisher": "jinriyoutu-static-v1",
+  "repository": "jinriyoutu/jinriyoutu.github.io",
+  "files": [
+    ".nojekyll",
+    "app.js",
+    "assets/hero-design.svg",
+    "assets/mark.svg",
+    "assets/research-forms.svg",
+    "assets/research-ink.svg",
+    "data.js",
+    "data/jobs.js",
+    "data/leaderboards.js",
+    "data/site-meta.js",
+    "index.html",
+    "release.json",
+    "styles.css"
+  ],
+  "version": "release-b029856765b5abce",
+  "workflow_sha256": "43f65efc86c08e3d1cea5ba02df05ce8c22d2fad269c6869640f476228054777"
+}
