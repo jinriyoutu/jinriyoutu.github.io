@@ -1,6 +1,6 @@
 window.SITE_RELEASE = {
-  "version": "release-b029856765b5abce",
-  "builtAt": "2026-11-09T12:18:28+00:00",
+  "version": "release-116cab5934930598",
+  "builtAt": "2026-11-16T01:06:50+00:00",
   "pipeline": true,
   "counts": {
     "calls": 1,
