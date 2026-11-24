@@ -1,6 +1,6 @@
 {
-  "version": "release-116cab5934930598",
-  "builtAt": "2026-11-16T01:06:50+00:00",
+  "version": "release-aa2ab6cd356de16b",
+  "builtAt": "2026-11-23T08:12:19+00:00",
   "pipeline": true,
   "counts": {
     "calls": 1,
@@ -16,10 +16,10 @@
     "assets/mark.svg": "3283c65333fffd5aa2b62afcbb3f0f7dd025a226628888269d62f729572a6d23",
     "assets/research-forms.svg": "2c78e7d4a07d0f1fa0cfd9ca9a08c968e261a4b305fab4cb2009c6e548c0bc45",
     "assets/research-ink.svg": "691a85d132500338764f3c50044bafde2ec28427d1e2b98583509db45096c16a",
-    "data.js": "44f90e7d045cbd68d1a6c6969dfef5d61bf3c0ba21168c15e6fcd09df57b19ee",
-    "data/jobs.js": "0604bf1fc1038adb8132902e84b781f3b1417dd20ab685ec2af64938cd55efa4",
-    "data/leaderboards.js": "edf7a5faab94b6a11959b3da683f2ed657836fbeb814be484d921c6ce4c43aac",
-    "data/site-meta.js": "585667dead2f10cbf0158ca8ca20e8d9100554591c5c81ac0b9a5be8921587bf",
+    "data.js": "3d254f5e43d87568d59b1bca0d6d6b360b37d346c9053b4275487978d78db6d1",
+    "data/jobs.js": "1ff3db6d60ca8cc96ae217e0c325ca8d0012177e0e9ca61dde724f5641993482",
+    "data/leaderboards.js": "b9091c2278785574250b79891f6a9934c07043e6e5a2347a5ecc00ee3e39ff1e",
+    "data/site-meta.js": "809fe59376b930d566c922bd9108710e9d1f2dba77c1385e3191d9fe57ae3bee",
     "index.html": "f5cf4566ebabb29d0050aa15868fae226bcb09be4453404c0b07967f736d9227",
     "styles.css": "21d24910032fd6ce5aef6366f08fb57c81cfac286e951e622ef633d9d7807f88"
   }
